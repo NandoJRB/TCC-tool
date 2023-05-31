@@ -42,7 +42,7 @@ a = _p3.designPrimers(seq_args={
 
 
 # A função calcHeterodimer recebe duas sequências distintas e informa se existe dímero entre elas
-b = _p3.calcHeterodimer('GCTTGCATGCCTGCAGGTCGACTCTAGAGGATCCCCCTACATTTT', 'ACAGATTAGGAGGTAAGTTTGCAAAGGCAGGCTAAGGAGGAGACG')
+b = _p3.calcHeterodimer('GCTTGCATGCCTGCAGGTCGACTCTCAGAGGATCCCCCTACATTTT', 'ACAGATTAGGAGGTAAGTTTGCAAAGGCAGGCTAAGGAGGAGACG')
 
 # A função calcHairpin verifica se a formação de um anel no primer
 c = _p3.calcHairpin('GATGTTTCCCTCTAGTAG')

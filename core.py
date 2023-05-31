@@ -172,7 +172,7 @@ if __name__ == "__main__":
     print(a)
     print(c.reverse_complement())
 
-    d = Primer('GCTTGCATGCCTGCAGGTCGACTCTAGAGGATCCCCCTACATTTT')
+    d = Primer('GCTTCGCATGCCTGCAGGTCGACTCTAGAGGATCCCCCTACATTTT')
     e = d.reverse_complement()
     print(d)
     print(e)

@@ -52,8 +52,7 @@ def from_igem(record):
 if __name__ == '__main__':
     # Exemplos de teste
     print(from_genbank('LR134385'), end='\n\n')
-    print(from_ensembl('ENSG00000157764'), end='\n\n')
-    print(from_ensembl('ENSDARG00000024771'), end='\n\n')
+    print(from_ensembl('ENSG00000157764'), end='\n\n')    
     print(from_igem('BBa_J23100'), end='\n\n')
     print(from_igem('BBa_R0010'), end='\n\n')
     print(from_igem('BBa_B0034'), end='\n\n')
