@@ -1,4 +1,10 @@
+'''
+    Nesse módulo irei usar plugins para o software Primer3 que será usado para
+    projetar primers. Por enquanto, estou só usando para fazer testes mesmo. 
+'''
+
 import primer3 as _p3
+
 
 
 a = _p3.designPrimers(seq_args={
